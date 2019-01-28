@@ -8,9 +8,9 @@
 var {Services} = Components.utils.import("resource://gre/modules/Services.jsm", {});
 var appversion = parseInt(Services.appinfo.version);
 
-var item_label = "New Tab"; // menuitem label
+var item_label = "Nouvel onglet"; // menuitem label
 var show_icon = true; // icon visible (true) or hidden (false)
-var show_menuitem_on_top = false; // show menuitem on top (true) or not (false)
+var show_menuitem_on_top = true; // show menuitem on top (true) or not (false)
 var newtab_url = 'about:newtab'; // set own url here e.g. 'https://www.google.com'
 
 var NewTabMenuItem = {
